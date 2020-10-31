@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background: linear-gradient(-120deg, #00e8f9,#5a88ff,#ff71ac); 
+    height: 100%;
+    background-position: center;
+    background-size: 400% 400%;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    animation: cambio 10s ease-in-out infinite;
+}
+
+@keyframes cambio{
+    0%{
+        background-position: 0 50%;
+    }
+     50%{
+        background-position: 100% 50%;
+    }
+     100%{
+        background-position: 0 50%;
+    }
+}
+
+.topleft {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+}
+
+h1{
+    font-size:20px;
+}
+h2{
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
+img{
+ width: 10%;
+ min-width: 40px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    font-family: "Courier New", Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+  }
