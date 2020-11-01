@@ -1,4 +1,4 @@
-var contador = new Date("Jan 29, 2021 00:00:00").getTime();
+var contador = new Date("Dec 29, 2021 00:00:00").getTime();
 
 var x = setInterval(function(){
 
