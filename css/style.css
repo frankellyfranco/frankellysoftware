@@ -51,6 +51,11 @@ img{
     left: 16px;
 }
 
+.bottomleft p:hover{
+    transition-duration: 1s;
+    cursor: pointer;
+    font-size: 30px;
+}
 .middle {
     font-family: "Courier New", Courier, monospace;
     position: absolute;
