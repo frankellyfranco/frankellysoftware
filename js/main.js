@@ -1,6 +1,6 @@
 //Loading de la web
 $(window).load(function() {
-    $(".loading").fadeOut(3000);
+    $(".loading").fadeOut(6000);
 
 });
 
