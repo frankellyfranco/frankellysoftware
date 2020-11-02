@@ -1,5 +1,12 @@
-var contador = new Date("Jan 29, 2021 00:00:00").getTime();
+//Loading de la web
+$(window).load(function() {
+    $(".loading").fadeOut(3000);
 
+});
+
+
+// Desconteo de tiempo
+var contador = new Date("Jan 29, 2021 00:00:00").getTime();
 var x = setInterval(function(){
 
     var now = new Date().getTime();
@@ -17,3 +24,5 @@ var x = setInterval(function(){
                   document.getElementById("tiempo").innerHTML = "Falta poco";
               } 
 }, 1000);
+
+

@@ -3,6 +3,19 @@ body, html {
     margin: 0;
 }
 
+.loading{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-image: url('/img/LOGOPLANO_FS.png');
+    background-position:  50% 50% ;
+    background-repeat:  no-repeat;
+    background-color: #45455a;
+}
+
 .bgimg {
     background: linear-gradient(-120deg, #00e8f9,#5a88ff,#ff71ac); 
     height: 100%;
